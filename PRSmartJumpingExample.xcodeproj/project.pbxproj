@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5A2AD2E14D432A7007608C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A2AD2D14D432A7007608C8 /* UIKit.framework */; };
+		A5A2AD3014D432A7007608C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A2AD2F14D432A7007608C8 /* Foundation.framework */; };
+		A5A2AD3214D432A7007608C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A2AD3114D432A7007608C8 /* CoreGraphics.framework */; };
+		A5A2AD3814D432A7007608C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5A2AD3614D432A7007608C8 /* InfoPlist.strings */; };
+		A5A2AD3A14D432A7007608C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A2AD3914D432A7007608C8 /* main.m */; };
+		A5A2AD3E14D432A7007608C8 /* PRSJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A2AD3D14D432A7007608C8 /* PRSJAppDelegate.m */; };
+		A5A2AD4114D432A7007608C8 /* PRSJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A2AD4014D432A7007608C8 /* PRSJViewController.m */; };
+		A5A2AD4414D432A7007608C8 /* PRSJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A2AD4214D432A7007608C8 /* PRSJViewController.xib */; };
+		A5A2AD5014D432F1007608C8 /* PPSmartJumpingController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A2AD4F14D432F1007608C8 /* PPSmartJumpingController.m */; };
+		A5A2AD5414D44450007608C8 /* PPJCItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A2AD5314D44450007608C8 /* PPJCItemController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5A2AD2914D432A7007608C8 /* PRSmartJumpingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRSmartJumpingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A2AD2D14D432A7007608C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A5A2AD2F14D432A7007608C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5A2AD3114D432A7007608C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A5A2AD3514D432A7007608C8 /* PRSmartJumpingExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PRSmartJumpingExample-Info.plist"; sourceTree = "<group>"; };
+		A5A2AD3714D432A7007608C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5A2AD3914D432A7007608C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A2AD3B14D432A7007608C8 /* PRSmartJumpingExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PRSmartJumpingExample-Prefix.pch"; sourceTree = "<group>"; };
+		A5A2AD3C14D432A7007608C8 /* PRSJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRSJAppDelegate.h; sourceTree = "<group>"; };
+		A5A2AD3D14D432A7007608C8 /* PRSJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRSJAppDelegate.m; sourceTree = "<group>"; };
+		A5A2AD3F14D432A7007608C8 /* PRSJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRSJViewController.h; sourceTree = "<group>"; };
+		A5A2AD4014D432A7007608C8 /* PRSJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRSJViewController.m; sourceTree = "<group>"; };
+		A5A2AD4314D432A7007608C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PRSJViewController.xib; sourceTree = "<group>"; };
+		A5A2AD4E14D432F1007608C8 /* PPSmartJumpingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSmartJumpingController.h; sourceTree = "<group>"; };
+		A5A2AD4F14D432F1007608C8 /* PPSmartJumpingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSmartJumpingController.m; sourceTree = "<group>"; };
+		A5A2AD5214D44450007608C8 /* PPJCItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJCItemController.h; sourceTree = "<group>"; };
+		A5A2AD5314D44450007608C8 /* PPJCItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPJCItemController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5A2AD2614D432A7007608C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A2AD2E14D432A7007608C8 /* UIKit.framework in Frameworks */,
+				A5A2AD3014D432A7007608C8 /* Foundation.framework in Frameworks */,
+				A5A2AD3214D432A7007608C8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5A2AD1E14D432A7007608C8 = {
+			isa = PBXGroup;
+			children = (
+				A5A2AD3314D432A7007608C8 /* PRSmartJumpingExample */,
+				A5A2AD2C14D432A7007608C8 /* Frameworks */,
+				A5A2AD2A14D432A7007608C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5A2AD2A14D432A7007608C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A2AD2914D432A7007608C8 /* PRSmartJumpingExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A2AD2C14D432A7007608C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5A2AD2D14D432A7007608C8 /* UIKit.framework */,
+				A5A2AD2F14D432A7007608C8 /* Foundation.framework */,
+				A5A2AD3114D432A7007608C8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5A2AD3314D432A7007608C8 /* PRSmartJumpingExample */ = {
+			isa = PBXGroup;
+			children = (
+				A5A2AD5214D44450007608C8 /* PPJCItemController.h */,
+				A5A2AD5314D44450007608C8 /* PPJCItemController.m */,
+				A5A2AD4E14D432F1007608C8 /* PPSmartJumpingController.h */,
+				A5A2AD4F14D432F1007608C8 /* PPSmartJumpingController.m */,
+				A5A2AD3C14D432A7007608C8 /* PRSJAppDelegate.h */,
+				A5A2AD3D14D432A7007608C8 /* PRSJAppDelegate.m */,
+				A5A2AD3F14D432A7007608C8 /* PRSJViewController.h */,
+				A5A2AD4014D432A7007608C8 /* PRSJViewController.m */,
+				A5A2AD4214D432A7007608C8 /* PRSJViewController.xib */,
+				A5A2AD3414D432A7007608C8 /* Supporting Files */,
+			);
+			path = PRSmartJumpingExample;
+			sourceTree = "<group>";
+		};
+		A5A2AD3414D432A7007608C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5A2AD3514D432A7007608C8 /* PRSmartJumpingExample-Info.plist */,
+				A5A2AD3614D432A7007608C8 /* InfoPlist.strings */,
+				A5A2AD3914D432A7007608C8 /* main.m */,
+				A5A2AD3B14D432A7007608C8 /* PRSmartJumpingExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5A2AD2814D432A7007608C8 /* PRSmartJumpingExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A2AD4714D432A7007608C8 /* Build configuration list for PBXNativeTarget "PRSmartJumpingExample" */;
+			buildPhases = (
+				A5A2AD2514D432A7007608C8 /* Sources */,
+				A5A2AD2614D432A7007608C8 /* Frameworks */,
+				A5A2AD2714D432A7007608C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PRSmartJumpingExample;
+			productName = PRSmartJumpingExample;
+			productReference = A5A2AD2914D432A7007608C8 /* PRSmartJumpingExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5A2AD2014D432A7007608C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A5A2AD2314D432A7007608C8 /* Build configuration list for PBXProject "PRSmartJumpingExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5A2AD1E14D432A7007608C8;
+			productRefGroup = A5A2AD2A14D432A7007608C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5A2AD2814D432A7007608C8 /* PRSmartJumpingExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5A2AD2714D432A7007608C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A2AD3814D432A7007608C8 /* InfoPlist.strings in Resources */,
+				A5A2AD4414D432A7007608C8 /* PRSJViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5A2AD2514D432A7007608C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A2AD3A14D432A7007608C8 /* main.m in Sources */,
+				A5A2AD3E14D432A7007608C8 /* PRSJAppDelegate.m in Sources */,
+				A5A2AD4114D432A7007608C8 /* PRSJViewController.m in Sources */,
+				A5A2AD5014D432F1007608C8 /* PPSmartJumpingController.m in Sources */,
+				A5A2AD5414D44450007608C8 /* PPJCItemController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5A2AD3614D432A7007608C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A2AD3714D432A7007608C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5A2AD4214D432A7007608C8 /* PRSJViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A2AD4314D432A7007608C8 /* en */,
+			);
+			name = PRSJViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5A2AD4514D432A7007608C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5A2AD4614D432A7007608C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5A2AD4814D432A7007608C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PRSmartJumpingExample/PRSmartJumpingExample-Prefix.pch";
+				INFOPLIST_FILE = "PRSmartJumpingExample/PRSmartJumpingExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A5A2AD4914D432A7007608C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PRSmartJumpingExample/PRSmartJumpingExample-Prefix.pch";
+				INFOPLIST_FILE = "PRSmartJumpingExample/PRSmartJumpingExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5A2AD2314D432A7007608C8 /* Build configuration list for PBXProject "PRSmartJumpingExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A2AD4514D432A7007608C8 /* Debug */,
+				A5A2AD4614D432A7007608C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A2AD4714D432A7007608C8 /* Build configuration list for PBXNativeTarget "PRSmartJumpingExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A2AD4814D432A7007608C8 /* Debug */,
+				A5A2AD4914D432A7007608C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5A2AD2014D432A7007608C8 /* Project object */;
+}
